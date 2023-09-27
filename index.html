@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WhatsApp UI Challenge</title>
+    <title>Chats | WhatsApp UI Challenge</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png" />
 
     <!-- TailwindCSS -->
     <link rel="stylesheet" href="./assets/css/output.css" />
   </head>
-  <body class="bg-green-300 p-10">
-    <h1 class="font-black text-center mb-5">
-      WhatsApp UI Challenge (Screen #1)
-    </h1>
+  <body class="bg-green-300">
     <section class="max-w-md mx-auto">
       <div
         class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between"
@@ -74,17 +73,17 @@
           <div
             class="uppercase font-medium text-sm flex items-center space-x-2"
           >
-            <span class="">Status</span>
+            <a href="./status.html" class="text-gray-200">STATUS</a>
           </div>
           <div
             class="uppercase font-medium text-sm flex items-center space-x-2"
           >
-            <span class="">Calls</span>
+            <span class="text-gray-200">Calls</span>
           </div>
         </li>
       </ul>
       <!-- Chat Screen -->
-      <div class="bg-white">
+      <div class="bg-white relative">
         <div
           class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100"
         >
@@ -128,6 +127,105 @@
               >1</span
             >
           </div>
+        </div>
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100"
+        >
+          <div>
+            <img
+              src="https://ui-avatars.com/api/?name=Samantha&background=random&color=fff"
+              alt="Samantha"
+              class="rounded-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h4 class="font-semibold">Samantha</h4>
+            <p class="text-gray-600 text-sm">Hey Are you there?</p>
+          </div>
+          <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">03:20PM</span>
+            <span
+              class="w-6 h-6 p-2 rounded-full text-sm bg-green-600 flex items-center text-white font-semibold"
+              >2</span
+            >
+          </div>
+        </div>
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100"
+        >
+          <div>
+            <img
+              src="https://ui-avatars.com/api/?name=Jyothika&background=random&color=fff"
+              alt="Jyothika"
+              class="rounded-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h4 class="font-semibold">Jyothika</h4>
+            <p class="text-gray-600 text-sm">Epo veetuku varuvinga???</p>
+          </div>
+          <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">01:25PM</span>
+            <span
+              class="w-6 h-6 p-2 rounded-full text-sm bg-green-600 flex items-center text-white font-semibold"
+              >4</span
+            >
+          </div>
+        </div>
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100"
+        >
+          <div>
+            <img
+              src="https://ui-avatars.com/api/?name=Silluku&background=random&color=fff"
+              alt="Silluku"
+              class="rounded-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h4 class="font-semibold">Silluku</h4>
+            <p class="text-gray-600 text-sm">Can you call me?</p>
+          </div>
+          <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">12:20PM</span>
+            <span
+              class="w-6 h-6 p-2 rounded-full text-sm bg-green-600 flex items-center text-white font-semibold"
+              >1</span
+            >
+          </div>
+        </div>
+        <div
+          class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100"
+        >
+          <div>
+            <img
+              src="https://ui-avatars.com/api/?name=Padmini&background=random&color=fff"
+              alt="Padmini"
+              class="rounded-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h4 class="font-semibold">Padmini</h4>
+            <p class="text-gray-600 text-sm">Super nga neenga...</p>
+          </div>
+          <div class="flex flex-col items-center space-y-1">
+            <span class="text-gray-600 font-semibold text-sm">10:45AM</span>
+          </div>
+        </div>
+        <div
+          class="bg-emerald-800 w-12 h-12 rounded-full flex items-center justify-center absolute bottom-5 right-5 hover:bg-emerald-900 cursor-pointer shadow-xl shadow-gray-400"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="text-white fill-current"
+          >
+            <path
+              d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z"
+            />
+          </svg>
         </div>
       </div>
     </section>
